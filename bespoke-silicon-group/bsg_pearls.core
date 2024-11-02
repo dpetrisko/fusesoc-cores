@@ -1,5 +1,5 @@
 CAPI=2: ''
-name: bespoke-silicon-group:bsg_pearls::0.0.1
+name: bespoke-silicon-group:bsg_pearls:rtl:0.0.1
 description: 'BSG Pearls: Hardened, Timing-Isolated IPlets'
 filesets:
   rtl:
@@ -16,7 +16,7 @@ filesets:
       - bsg_link_pearl/bsg_sdr_link_pearl.sv
     file_type: systemVerilogSource
     depend:
-      - bespoke-silicon-group:basejump_stl
+      - bespoke-silicon-group:basejump_stl:rtl
       - bespoke-silicon-group:basejump_stl:hard
 provider:
   name: github
