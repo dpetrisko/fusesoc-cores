@@ -205,7 +205,8 @@ filesets:
       - hard/ultrascale_plus/bsg_misc/bsg_clkgate_optional.sv
       - hard/ultrascale_plus/bsg_misc/bsg_mul_add_unsigned.sv
     file_type: systemVerilogSource
-  nonsynth: {}
+    depends:
+      - bespoke-silicon-group:basejump_stl:rtl
 provider:
   name: github
   user: bespoke-silicon-group
