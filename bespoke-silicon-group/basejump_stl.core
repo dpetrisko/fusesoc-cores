@@ -1,6 +1,6 @@
 CAPI=2:
 
-name: bespoke-silicon-group:basejump_stl::0.0.1
+name: bespoke-silicon-group:basejump_stl:rtl:0.0.1
 description: 'BaseJump STL: A Standard Template Library for SystemVerilog'
 
 ###############################################################
