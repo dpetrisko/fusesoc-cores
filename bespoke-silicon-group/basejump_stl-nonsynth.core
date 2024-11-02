@@ -42,6 +42,8 @@ filesets:
       - bsg_test/bsg_nonsynth_axi_mem.sv
       - bsg_test/bsg_nonsynth_val_watcher_1p.sv
     file_type: systemVerilogSource
+    depend:
+      - bespoke-silicon-group:basejump_stl:rtl
   nonsynth:
     files:
       - bsg_mem/bsg_mem_dma.cpp
